@@ -12,7 +12,7 @@ protected boolean getArgs(String[] args) {
 }
 
 @Override
-protected boolean wirteSeq() {
+protected boolean writeSeq() {
  System.out.println(SequenceTools.getTermsAsColumn(
  seqType.getGenerator(), from, to));
 
@@ -28,7 +28,7 @@ System.out.println("!Illegal arguments\n" + "Legal usage: seqName from to");
 return;
 }
 
-wirteSeq();
+writeSeq();
 }
 
 }

@@ -30,3 +30,4 @@ public class TribonacciGenerator extends FibonacciGenerator {
         return current;
     }
 }
+

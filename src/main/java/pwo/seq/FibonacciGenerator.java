@@ -34,3 +34,4 @@ public class FibonacciGenerator extends Generator {
         return current;
     }
 }
+
